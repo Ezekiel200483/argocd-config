@@ -31,6 +31,8 @@ kubectl apply -f application.yaml
 #Test Prunning, rename metadata: name: myapp-deployment to myapp
 ![image alt](https://github.com/Ezekiel200483/argocd-config/blob/8455689e07201eac8b5d94deb806d09abf545e16/deployment.png)
 
+![image alt](https://github.com/Ezekiel200483/argocd-config/blob/77fc589dcb9fc3cdd3fc22a3e4fdce519a27445d/deployment%202.png)
+
 
 # Test selfheal by changing replicas to 4 from 2
 kubectl edit deployment -n myapp myapp
