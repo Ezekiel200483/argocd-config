@@ -21,6 +21,8 @@ echo data. password | base64 --decode
 
 git add .
 kubectl apply -f application.yaml
+```
+![image alt](https://github.com/Ezekiel200483/argocd-config/blob/e32efa81b8dc60ba86d54751045691e6cc8dbaa0/Screenshot%202025-10-06%20at%2009.22.03.png)
 
 #Now, test the setup by updating deployment.yaml file (update the image version)
 
