@@ -25,6 +25,7 @@ kubectl apply -f application.yaml
 ![image alt](https://github.com/Ezekiel200483/argocd-config/blob/e32efa81b8dc60ba86d54751045691e6cc8dbaa0/Screenshot%202025-10-06%20at%2009.22.03.png)
 
 #Now, test the setup by updating deployment.yaml file (update the image version)
+![image alt](https://github.com/Ezekiel200483/argocd-config/blob/3ad7793634cdab86068a6329e619384874514e39/version.png)
 
 
 #Test Prunning, rename metadata: name: myapp-deployment to myapp
